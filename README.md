@@ -57,6 +57,7 @@ risk_score – Risk level of accident
 ## 🏗️ Project Structure
 
 eda-project/
+
 │
 ├── data/
 │   ├── raw/
