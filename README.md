@@ -1,6 +1,6 @@
 # EDA-Project-
 
-# 🚦 Indian Road Accident Exploratory Data Analysis (EDA) Project
+# 🚦Indian Road Accident Exploratory Data Analysis (EDA) Project
 ## 📌 Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on an Indian Road Accident dataset (2022–2025) to understand accident patterns, risk factors, and trends over time.
