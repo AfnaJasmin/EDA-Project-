@@ -1,11 +1,11 @@
 # EDA-Project-
 
-🚦#Indian Road Accident Exploratory Data Analysis (EDA) Project
-📌 Project Overview
+#🚦 Indian Road Accident Exploratory Data Analysis (EDA) Project
+#📌 Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on an Indian Road Accident dataset (2022–2025) to understand accident patterns, risk factors, and trends over time.
 
-The objective of this project is to:
+The main objective of this project is to:
 
 Understand the structure and quality of the dataset
 Clean and preprocess raw data
@@ -17,7 +17,6 @@ Generate meaningful insights for road safety
 📂 Dataset Description
 
 The dataset contains information about road accidents across different cities and states in India.
-
 Each row represents one accident record.
 
 🔑 Key Columns
@@ -57,12 +56,12 @@ eda-project/
 ├── README.md
 └── requirements.txt
 🧹 Data Cleaning
-Handled missing values in festival column
-Converted date column to datetime format
+Handled missing values in the festival column
+Converted the date column to datetime format
 Removed duplicate records
 Standardized categorical variables
 Performed outlier detection using IQR (no significant outliers found)
-Saved cleaned dataset
+Saved the cleaned dataset
 📊 Exploratory Data Analysis
 🔹 Univariate Analysis
 Distribution of casualties
@@ -75,11 +74,11 @@ Accident severity vs casualties
 Weather vs accident severity
 Correlation heatmap
 📈 Statistical Tests
-T-test → Compared casualties between weekend and weekday
-ANOVA → Compared casualties across severity levels
-Chi-square test → Relationship between weather and severity
+T-test → Compared casualties between weekend and weekday accidents
+ANOVA → Compared casualties across accident severity levels
+Chi-square test → Analyzed relationship between weather and accident severity
 
-These tests validated patterns statistically.
+These tests helped validate patterns statistically.
 
 ⏳ Time-Based Analysis
 
@@ -90,7 +89,7 @@ Month
 Hour
 Day of week
 
-👉 Helped identify accident trends and peak accident periods.
+👉 This helped identify accident trends and peak accident periods.
 
 🛠️ Feature Engineering
 
@@ -123,15 +122,18 @@ Seaborn
 SciPy
 Jupyter Notebook
 Git & GitHub
-▶️ How to Run
+▶️ How to Run the Project
 Clone the repository
 
-Install dependencies:
+Install required libraries:
 
 pip install -r requirements.txt
 Run notebooks in order:
 Day 1 → Day 2 → Day 3 → Day 4
 📁 Final Dataset
+
+The final cleaned dataset is available at:
+
 data/processed/final_cleaned_day4.csv
 📌 Conclusion
 
