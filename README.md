@@ -40,6 +40,7 @@ risk_score – Risk level of accident
 
 
 ## 🏗️ Project Structure
+
 eda-project/
 │
 ├── data/
@@ -59,7 +60,7 @@ eda-project/
 ├── README.md
 └── requirements.txt
 
-🧹 Data Cleaning
+## 🧹 Data Cleaning
 Handled missing values in the festival column
 Converted the date column to datetime format
 Removed duplicate records
@@ -68,23 +69,23 @@ Performed outlier detection using IQR (no significant outliers found)
 Saved the cleaned dataset
 
 
-📊 Exploratory Data Analysis
+## 📊 Exploratory Data Analysis
 
-🔹 Univariate Analysis
+## 🔹 Univariate Analysis
 Distribution of casualties
 Vehicles involved analysis
 Accident severity distribution
 Weather condition distribution
 
 
-🔹 Bivariate Analysis
+## 🔹 Bivariate Analysis
 Vehicles involved vs casualties
 Accident severity vs casualties
 Weather vs accident severity
 Correlation heatmap
 
 
-📈 Statistical Tests
+## 📈 Statistical Tests
 
 T-test → Compared casualties between weekend and weekday accidents
 ANOVA → Compared casualties across accident severity levels
@@ -93,7 +94,7 @@ Chi-square test → Analyzed relationship between weather and accident severity
 These tests helped validate patterns statistically.
 
 
-⏳ Time-Based Analysis
+## ⏳ Time-Based Analysis
 Extracted and analyzed:
 
 Year
@@ -104,7 +105,7 @@ Day of week
 👉 This helped identify accident trends and peak accident periods.
 
 
-🛠️ Feature Engineering
+## 🛠️ Feature Engineering
 Created new features:
 
 year
@@ -114,7 +115,7 @@ is_weekend_flag
 
 👉 These features improved analysis and pattern detection.
 
-🔍 Key Insights
+## 🔍 Key Insights
 Most accidents are minor with fewer casualties
 Accidents increase during peak traffic hours
 Accident patterns vary across months and years
@@ -125,7 +126,8 @@ Weekday accidents are more frequent
 Regional differences exist in accident severity
 Time-based trends highlight peak accident periods
 Feature engineering improved analysis depth
-🧰 Tools Used
+
+## 🧰 Tools Used
 Python
 Pandas
 NumPy
@@ -134,7 +136,8 @@ Seaborn
 SciPy
 Jupyter Notebook
 Git & GitHub
-▶️ How to Run the Project
+
+## ▶️ How to Run the Project
 Clone the repository
 
 Install required libraries:
@@ -142,12 +145,13 @@ Install required libraries:
 pip install -r requirements.txt
 Run notebooks in order:
 Day 1 → Day 2 → Day 3 → Day 4
-📁 Final Dataset
 
+## 📁 Final Dataset
 The final cleaned dataset is available at:
 
 data/processed/final_cleaned_day4.csv
-📌 Conclusion
+
+## 📌 Conclusion
 
 This project demonstrates a complete EDA workflow including data cleaning, visualization, statistical testing, and feature engineering.
 
