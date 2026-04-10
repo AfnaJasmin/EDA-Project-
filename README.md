@@ -1,7 +1,7 @@
 # EDA-Project-
 
-#🚦 Indian Road Accident Exploratory Data Analysis (EDA) Project
-#📌 Project Overview
+# 🚦 Indian Road Accident Exploratory Data Analysis (EDA) Project
+## 📌 Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on an Indian Road Accident dataset (2022–2025) to understand accident patterns, risk factors, and trends over time.
 
@@ -14,12 +14,13 @@ Conduct statistical testing
 Perform time-based analysis
 Engineer new features
 Generate meaningful insights for road safety
-📂 Dataset Description
+
+## 📂 Dataset Description
 
 The dataset contains information about road accidents across different cities and states in India.
 Each row represents one accident record.
 
-🔑 Key Columns
+## 🔑 Key Columns
 accident_id – Unique accident identifier
 city – City where accident occurred
 state – State of accident
@@ -36,7 +37,9 @@ accident_severity – Severity (minor, major, fatal)
 vehicles_involved – Number of vehicles
 casualties – Number of casualties
 risk_score – Risk level of accident
-🏗️ Project Structure
+
+
+## 🏗️ Project Structure
 eda-project/
 │
 ├── data/
@@ -55,6 +58,7 @@ eda-project/
 │
 ├── README.md
 └── requirements.txt
+
 🧹 Data Cleaning
 Handled missing values in the festival column
 Converted the date column to datetime format
@@ -62,26 +66,34 @@ Removed duplicate records
 Standardized categorical variables
 Performed outlier detection using IQR (no significant outliers found)
 Saved the cleaned dataset
+
+
 📊 Exploratory Data Analysis
+
 🔹 Univariate Analysis
 Distribution of casualties
 Vehicles involved analysis
 Accident severity distribution
 Weather condition distribution
+
+
 🔹 Bivariate Analysis
 Vehicles involved vs casualties
 Accident severity vs casualties
 Weather vs accident severity
 Correlation heatmap
+
+
 📈 Statistical Tests
+
 T-test → Compared casualties between weekend and weekday accidents
 ANOVA → Compared casualties across accident severity levels
 Chi-square test → Analyzed relationship between weather and accident severity
 
 These tests helped validate patterns statistically.
 
-⏳ Time-Based Analysis
 
+⏳ Time-Based Analysis
 Extracted and analyzed:
 
 Year
@@ -91,8 +103,8 @@ Day of week
 
 👉 This helped identify accident trends and peak accident periods.
 
-🛠️ Feature Engineering
 
+🛠️ Feature Engineering
 Created new features:
 
 year
