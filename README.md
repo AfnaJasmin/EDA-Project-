@@ -55,26 +55,12 @@ risk_score – Risk level of accident
 
 
 ## 🏗️ Project Structure
-
 eda-project/
-
 │
 ├── data/
-│   ├── raw/
-│   ├── interim/
-│   └── processed/
-│
 ├── notebooks/
-│   ├── 01_data_overview.ipynb
-│   ├── 02_cleaning_preprocessing.ipynb
-│   ├── 03_univariate_bivariate_eda.ipynb
-│   └── 04_stats_time_features_final_insights.ipynb
-│
 ├── reports/
-│   └── figures/
-│
-├── README.md
-└── requirements.txt
+└── README.md
 
 ## 🧹 Data Cleaning
 Handled missing values in the festival column
