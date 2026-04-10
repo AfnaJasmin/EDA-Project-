@@ -22,20 +22,35 @@ Each row represents one accident record.
 
 ## 🔑 Key Columns
 accident_id – Unique accident identifier
+
 city – City where accident occurred
+
 state – State of accident
+
 latitude, longitude – Location coordinates
+
 date, time – Date and time of accident
+
 hour – Hour of accident
+
 day_of_week – Day of occurrence
+
 is_weekend – Weekend indicator
+
 weather – Weather condition
+
 visibility – Visibility condition
+
 traffic_density – Traffic level
+
 cause – Cause of accident
+
 accident_severity – Severity (minor, major, fatal)
+
 vehicles_involved – Number of vehicles
+
 casualties – Number of casualties
+
 risk_score – Risk level of accident
 
 
